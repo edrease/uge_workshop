@@ -1,0 +1,70 @@
+why unix?
+1.data as plaintext files - ascii
+2.many small programs
+3.input-output redirection - “piping” input to different outputs
+  i.e. history -> screen or -
+        history -> file
+
+unix kernel - just a program
+manages the hardware
+  -programs use kernel as delegate to interact with hardware
+
+  other programs <-> kernel <-> cpu, memory, other i/o devices
+
+  safe from hackers - programs live in protected part of memory
+
+  has special privileges to access hardware
+
+unix shell - another program
+  provide user interface to kernel
+  you <-> shell <-> kernel
+
+  shell = command line interface
+
+  commands given in text only
+
+  more flexible, faster
+
+  got it’s name because it’s like a nutshell, with kernel inside the “shell”
+
+  job of shell to sweat the details
+
+Uses of version control
+Backup
+share source code
+collaborate with other people
+
+Parts of a commit:
+Author - person who is in charge of changes
+Timestamp
+Comment
+Unique ID
+The actual changes made to the code
+
+Modify - change existing files, or make new ones (Dirty)
+
+->ADD
+
+Now they are staged (Dirty)
+
+->COMMIT
+
+Committed (Clean)
+
+“git diff” shows what you changed
+
+"git status" shows current state of repo
+
+"git add" places new file under control of the repo, and adds to the 'stage'
+
+"git commit" commits repo, takes a snapshot - permanent record is created
+  adding a '-m' flag allows you to put a comment on the commit
+
+.git is a hidden/magic folder that does all the work for you within your local
+repo
+
+"git log" shows history of repo
+
+git checkout -b <branch_name>
+
+
