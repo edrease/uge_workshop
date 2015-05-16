@@ -1,3 +1,5 @@
+# List hidden directories
+
 cd
 ls
 history > moving_around.txt
@@ -5,14 +7,14 @@ pwd
 /
 history | less
 history | tail -r
-history 
+history
 ls -l
 cd Image\ Units/
 cd Graphics/
 ..
 cd Components/
 cd Library/
-cd .. 
+cd ..
 ls..
 cd /
 man ...
@@ -24,25 +26,25 @@ ls /Desktop
 ls Desktop
 ls ~
 cd bin
-ls 
+ls
 cd network
-cd net 
-cd ../.. 
+cd net
+cd ../..
 cd b
 cd usr
 cd u
 cd lib
-ls -lT 
+ls -lT
 man ls
-ls -lrt 
-ls -rt 
-ls -r 
-ls -lt 
+ls -lrt
+ls -rt
+ls -r
+ls -lt
 ls -l ~
-ls -t 
-cd / 
+ls -t
+cd /
 clear
-curl -fsSL http://git.io/QxUaOQ | sh 
+curl -fsSL http://git.io/QxUaOQ | sh
 curl -fsSL http://git.io/7UHtNA | sh
 git --version
 subl /etc/paths
@@ -51,7 +53,7 @@ echo $EDITOR
 subl ~/.config/fish/config.fish
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 brew info fish
-brew info 
+brew info
 brew in
 git status
 fish_update_completions
@@ -74,10 +76,10 @@ cd /etc
 echo
 chmod +x /Applications/Live8/Live.app/Contents/MacOS/Live
 /Applications/Ableton\ Live\ 9\ Suite.app/Contents/MacOS/Live ; exit;
-ls -lrt 
+ls -lrt
 ls -lrt1
 ls -rt1
-ls -rt 
+ls -rt
 ls -t | less
 ls
 history > moving_around.txt
@@ -86,14 +88,14 @@ pwd
 /
 history | less
 history | tail -r
-history 
+history
 ls -l
 cd Image\ Units/
 cd Graphics/
 ..
 cd Components/
 cd Library/
-cd .. 
+cd ..
 ls..
 cd /
 man ...
@@ -105,23 +107,23 @@ ls /Desktop
 ls Desktop
 ls ~
 cd bin
-ls 
+ls
 cd network
-cd net 
-cd ../.. 
+cd net
+cd ../..
 cd b
 cd usr
 cd u
 cd lib
-ls -lT 
+ls -lT
 man ls
-ls -r 
-ls -lt 
+ls -r
+ls -lt
 ls -l ~
-ls -t 
-cd / 
+ls -t
+cd /
 clear
-curl -fsSL http://git.io/QxUaOQ | sh 
+curl -fsSL http://git.io/QxUaOQ | sh
 curl -fsSL http://git.io/7UHtNA | sh
 git --version
 subl /etc/paths
@@ -130,7 +132,7 @@ echo $EDITOR
 subl ~/.config/fish/config.fish
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 brew info fish
-brew info 
+brew info
 brew in
 git status
 fish_update_completions
